@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mathquiz</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    
+</head>
+
+<body>
+    <h2 class="header">Answer the Question</h2>
+    <div class="scorediv">
+    
+    <h4 id="Player1_Name"></h4>
+    <span id="Player1Score"></span>
+    
+    <br>
+
+    <h4 id="Player2_Name"></h4>
+    <span id="Player2_Score"></span>
+    <h4 id="Player_question"></h3>
+    <h4 id="Player_answer"></h3>
+    </div>
+    <center>
+        
+
+        <div id="output" class="col-lg-6"></div>
+            <br>
+            <h3>Send a Tricky Addition Problem</h3>
+            </label>
+            <div>
+            <input type="text" placeholder="Type here" id="firstnumber" class="">
+            <br>
+            <br>
+            <input type="text" placeholder="Type here" id="secondnumber" class="">
+            </div>
+            <br>
+            <br>
+            <button type="button" class="btn-success" onclick="Send()">Send</button>
+    </center>
+    <script src="mathquiz.js"></script>
+</body>
+
+</html>
